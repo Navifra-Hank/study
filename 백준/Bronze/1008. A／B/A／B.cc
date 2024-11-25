@@ -1,12 +1,14 @@
-#include <iostream>
-#include <cstdio> 
+#include<iostream>
+using namespace std;
 
-int main() {
-    double A, B;
-    std::cin >> A >> B;
-
-   
-    printf("%.15f\n", A / B);
+int main()
+{
+    float a, b;
+    cin >> a >> b;
+    
+    cout.precision(10);
+    cout << (long double)a / b << '\n';
 
     return 0;
 }
+
